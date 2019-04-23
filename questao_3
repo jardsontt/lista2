@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main(){
+	double a;
+	double i,r_i,p;
+	scanf("%lf",&a);
+	i=int(a);
+	r_i=a-i;
+	printf("%lf %lf %.0lf",i,r_i,a);
+}
